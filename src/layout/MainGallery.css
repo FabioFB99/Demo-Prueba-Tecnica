@@ -1,0 +1,9 @@
+.cr-mainGallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 300px;
+    grid-gap: 0.5rem;
+    padding-top: 41px;
+    padding-left: 41px;
+    
+}

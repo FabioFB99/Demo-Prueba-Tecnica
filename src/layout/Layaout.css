@@ -1,0 +1,13 @@
+.layout-all{
+    display: grid;
+        grid-template-rows: 15vh 1fr 25vh;
+        min-height: 100vh;
+}
+
+@media (max-width: 644px) {
+.layout-all {
+        display: grid;
+        grid-template-rows: 26vh 1fr 36vh;
+        min-height: 100vh;
+    }
+}

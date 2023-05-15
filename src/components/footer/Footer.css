@@ -1,0 +1,86 @@
+.elements{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.padding-text-foot{
+    padding-left: 100px;
+}
+.letrasdistinta{
+    padding-left: 100px;
+    color: #8A836C;
+}
+.foooter{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 20px;
+    
+}
+.facebookicon{
+    padding-left: 100px;
+    height: 50px;
+}
+.twitericon{
+    height: 50px;
+}
+.instagramicon{
+    height: 50px;
+}
+.iconsrrss1{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.microsofticon{
+    height: 40px;
+    border-radius: 5px;
+}
+.iconsrrss2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 100px;
+}
+.allicons{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 644px) {
+    .allicons {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+    .facebookicon {
+        height: 20px;
+    }
+
+    .twitericon {
+        height: 20px;
+    }
+
+    .instagramicon {
+        height: 20px;
+    }
+    .microsofticon {
+        height: 30px;
+        border-radius: 5px;
+    }
+    .appleicon{
+        height: 30px;
+    }
+    .googleicon{
+        height: 30px;
+    }
+                .padding-text-foot {
+                    padding-left: 1px;
+                }
+        .letrasdistinta {
+            padding-left: 10px;
+            color: #8A836C;
+        }
+}
